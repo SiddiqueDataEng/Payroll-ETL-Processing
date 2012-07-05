@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SourceDB].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=localhost;Initial Catalog=SourceDB;Provider=SQLNCLI11;Integrated Security=SSPI;</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

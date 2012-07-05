@@ -1,0 +1,6 @@
+SSIS PACKAGE: Payroll-ETL-Processing.dtsx (SQL Server 2012)
+CONTROL FLOW: Truncate Staging > Data Flow > Transform > Update Control
+DATA FLOW: OLE DB Source > Data Conversion > Derived Column > Lookup > OLE DB Destination
+DEPLOYMENT: SSDT > Build > Copy .dtsx to server > SQL Agent > New Job > SSIS Package
+SCHEDULE: Daily 2:00 AM
+CONFIG: Production.dtsConfig (connection strings)
